@@ -1,14 +1,23 @@
-<script>
-	import '@justinribeiro/lite-youtube';
-</script>
-
 <main>
 	<div class="background"></div>
 	<div class="content">
 		<h1 class="title">WOOOOHOOOO!</h1>
 		<div class="videos">
-			<lite-youtube videoid="Gnm3hIcjiCQ" class="video square" autoload></lite-youtube>
-			<lite-youtube videoid="dmAfiY7yomo" class="video square"></lite-youtube>
+			<iframe
+				src="https://www.youtube.com/embed/Gnm3hIcjiCQ?autoplay=1"
+				title="CAT DANCE!!!"
+				frameborder="0"
+				class="video square"
+				allow="autoplay"
+				allowfullscreen
+			></iframe>
+			<iframe
+				src="https://www.youtube.com/embed/dmAfiY7yomo"
+				title="I LOVE YOUUUU!"
+				frameborder="0"
+				class="video"
+				allowfullscreen
+			></iframe>
 		</div>
 	</div>
 </main>
@@ -18,13 +27,12 @@
 
 	.video {
 		border-radius: 12px;
-		width: 48rem;
 		height: 27rem;
+		width: 48rem;
 	}
 
 	.video.square {
 		width: 27rem;
-		height: 27rem;
 	}
 
 	.videos {

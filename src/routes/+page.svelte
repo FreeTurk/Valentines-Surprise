@@ -45,7 +45,7 @@
 		cursor: pointer;
 		box-sizing: border-box;
 
-		transition: all ease-in-out;
+		transition: 0.15s all ease-in-out;
 	}
 
 	.title {
