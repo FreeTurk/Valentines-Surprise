@@ -1,28 +1,14 @@
+<script>
+	import '@justinribeiro/lite-youtube';
+</script>
+
 <main>
 	<div class="background"></div>
 	<div class="content">
 		<h1 class="title">WOOOOHOOOO!</h1>
 		<div class="videos">
-			<iframe
-				width="1280"
-				height="745"
-				src="https://www.youtube.com/embed/Gnm3hIcjiCQ?autoplay=1"
-				title="(*´∇`)ﾉ"
-				class="video square"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				allowfullscreen
-			></iframe>
-			<iframe
-				width="1280"
-				height="720"
-				src="https://www.youtube.com/embed/dmAfiY7yomo"
-				title="send this to your crush (100% WORKING METHOD)"
-				class="video"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				allowfullscreen
-			></iframe>
+			<lite-youtube videoid="Gnm3hIcjiCQ" class="video square" autoload></lite-youtube>
+			<lite-youtube videoid="dmAfiY7yomo" class="video square"></lite-youtube>
 		</div>
 	</div>
 </main>
